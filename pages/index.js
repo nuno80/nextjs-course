@@ -1,6 +1,8 @@
+// next.js legge il percorso del file index come: https://nextjs-course/pages/ va a leggere il nome della cartella di riferimento
+
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className={styles.container}>
       <h1>Hello Next World!</h1>
